@@ -1,0 +1,160 @@
+* {
+  direction: rtl;
+}
+
+/* ================================================================================================= */
+
+.App {
+  padding-top: 20px;
+}
+
+/* ================================================================================================= */
+
+.taskContainer {
+  width: 70%;
+  margin: 0 auto;
+  /* border: 1px solid gray;
+    background-color: rgb(240, 219, 223); */
+}
+
+/* ================================================================================================= */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(240, 226, 228);
+  border-radius: 20px;
+  box-shadow: 5px 1px 8px 6px rgb(207 206 206);
+  padding: 0 30px;
+}
+
+.logo {
+  width: 80px;
+  height: 100px;
+}
+
+/* ================================================================================================= */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgb(230, 229, 229);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* ================================================================================================= */
+
+.description {
+  background-color: white;
+  width: 56%;
+  border-radius: 20px 0;
+  resize: none;
+  height: 50px;
+  direction: rtl;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgb(212, 198, 201);
+  box-shadow: 1px 1px 5px 1px rgb(212, 198, 201);
+}
+
+.description:focus {
+  border: 1px solid rgb(194, 221, 194);
+  box-shadow: 1px 1px 5px 1px rgb(221, 233, 221);
+}
+
+/* ================================================================================================= */
+
+.timePicker {
+  all: unset;
+  width: 10%;
+  background: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgb(212, 198, 201);
+  box-shadow: 1px 1px 5px 1px rgb(212, 198, 201);
+}
+
+.time {
+  all: unset;
+  width: 10%;
+  direction: ltr;
+  font-size: 18px;
+  background-color: rgb(240, 226, 228);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid rgb(212, 198, 201);
+}
+
+/* .myButton:focus {
+  border: 1px solid rgb(221, 233, 221);
+  box-shadow: 1px 1px 5px 1px rgb(221, 233, 221);
+} */
+
+/* ================================================================================================= */
+
+.taskShow {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ================================================================================================= */
+.showTime {
+  direction: ltr;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px #615c5c;
+}
+/* ================================================================================================= */
+
+.getTime {
+  font-size: 20px;
+  direction: ltr;
+}
+
+.diffTiemBox {
+  width: 10%;
+}
+
+.diffTimeShow {
+  direction: ltr;
+  font-size: 20px;
+  background-color: rgb(221, 240, 228);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid rgb(186, 211, 194);
+}
+
+.disable {
+  pointer-events: none;
+  background-color: rgb(248, 183, 183);
+}
+/* ================================================================================================= */
+.Space {
+  width: 10%;
+}
+/* ================================================================================================= */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgb(240, 226, 228);
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 1px 8px 6px rgb(207 206 206)
+}
+.direction {
+  direction: ltr;
+}
